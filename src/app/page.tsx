@@ -1,12 +1,5 @@
 import { Button } from "@/components/ui/button";
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  SignUpButton,
-  UserButton,
-} from "@clerk/nextjs";
-import Image from "next/image";
+import { SignInButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
