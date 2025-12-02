@@ -1,10 +1,11 @@
 import Navbar from "@/components/Navbar";
 import ConvexClerkProvider from "@/components/providers/ConvexClerkProvider";
-import { ThemeProvider } from "@/components/providers/ThemeProvider";
-import { RedirectToSignIn, SignedIn, SignedOut } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import "@stream-io/video-react-sdk/dist/css/styles.css";
 import "./globals.css";
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { RedirectToSignIn, SignedIn, SignedOut } from "@clerk/nextjs";
 import { Toaster } from "react-hot-toast";
 
 const geistSans = localFont({
