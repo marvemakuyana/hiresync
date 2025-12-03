@@ -41,7 +41,7 @@ function MeetingSetup({ onSetupComplete }: { onSetupComplete: () => void }) {
             <div>
               <h1 className="text-xl font-semibold mb-1">Camera Preview</h1>
               <p className="text-sm text-muted-foreground">
-                Make sure you look good!
+                Make sure you look good 😀
               </p>
             </div>
 
