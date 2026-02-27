@@ -1,7 +1,7 @@
 import React from "react";
 
 function RecordingPage() {
-  return <div>RecordingPage</div>;
+  return <div>Recording</div>;
 }
 
 export default RecordingPage;
